@@ -22,7 +22,7 @@
 
 基本的なサンプルコードはここをみるのがベター。
 
-- [User Guid (Azure Storage Blobs client library for Python) | Microsoft Docs](https://docs.microsoft.com/ja-JP/azure/developer/python/sdk/storage/storage-blob-readme)
+- [User Guide (Azure Storage Blobs client library for Python) | Microsoft Docs](https://docs.microsoft.com/ja-JP/azure/developer/python/sdk/storage/storage-blob-readme)
 
 - [azure-storage-blob Package reference](https://docs.microsoft.com/en-us/python/api/azure-storage-blob/?view=azure-python)
 
@@ -30,8 +30,8 @@
 ## 非同期を利用する際は
 
 - `aiohttp` のインストール
--  import は `azure.storage.blob.aio` に変更
--  メソッドの定義に async つけて、あとは良しなに非同期メソッドを呼ぶ
+- import は `azure.storage.blob.aio` に変更
+- メソッドの定義に async つけて、あとは良しなに非同期メソッドを呼ぶ
 
 
 

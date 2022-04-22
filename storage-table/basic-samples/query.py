@@ -1,6 +1,5 @@
 import os
 from uuid import uuid4
-import json
 from dotenv import find_dotenv, load_dotenv
 from azure.data.tables import TableClient, UpdateMode
 
