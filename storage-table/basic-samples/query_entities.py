@@ -48,12 +48,9 @@ def main():
 
     # ✅ Delete entity
     print(f'Delete entity (PK {got_result["PartitionKey"]} / RK {got_result["RowKey"]})')
-    
     table_client.delete_entity(got_result["PartitionKey"], got_result["RowKey"])
 
-
     print("Done query.py")
-
 
 if __name__ == "__main__":
   main()

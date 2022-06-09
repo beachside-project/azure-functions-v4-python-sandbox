@@ -1,6 +1,11 @@
 # Strage - Table samples (Python)
 
-## local.settings.json
+## デバッグ実行の準備
+
+Azure Functions のサンプルと、素の python のサンプルがあります。デバッグ実行にあたってそれぞれで環境変数をセットする準備がことなります。
+
+
+## Azure Functions のサンプル: local.settings.json の追加
 
 デバッグ実行するには、以下の local.setting.json を追加し `AZURE_STORAGE_CONNECTION_STRING` に storage account の接続文字列をセットする必要があります。
 
@@ -14,6 +19,15 @@
   }
 }
 ```
+
+## 素の python のサンプル: .env の追加
+
+素の python のサンプルの場合は、`python-dotenv` を使用しているため、実行するファイルと同じパスに .env ファイルの追加が必要です。中身は以下です。
+
+```
+AZURE_STORAGE_CONNECTION_STRING=<ADLS Gen2 の接続文字列>
+```
+
 
 ## Python x Table の参考ドキュメント
 
