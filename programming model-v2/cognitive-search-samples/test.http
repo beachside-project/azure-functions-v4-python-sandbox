@@ -1,0 +1,7 @@
+
+GET http://localhost:7071/api/search?query=webのサービス
+
+
+### 
+
+GET http://localhost:7071/api/search?query=webのサービス&category=Networking
