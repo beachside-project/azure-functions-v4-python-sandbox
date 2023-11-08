@@ -1,0 +1,13 @@
+import logging
+import azure.functions as func
+
+app = func.FunctionApp()
+
+
+@app.event_grid_trigger(arg_name="event")
+def EventGridTrigger(event: func.EventGridEvent):
+    logging.info('Python EventGrid trigger processed an event')
+
+    data = event.get_json()
+
+    logging.info(f"data['url']: {data['url']}")
