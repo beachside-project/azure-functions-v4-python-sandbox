@@ -1,0 +1,7 @@
+
+
+
+GET http://localhost:7071/api/http_trigger_auth
+Authorization: Bearer xxxxx
+X-MS-CLIENT-PRINCIPAL-ID: hina
+
