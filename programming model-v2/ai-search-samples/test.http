@@ -4,4 +4,15 @@ GET http://localhost:7071/api/search?query=webのサービス
 
 ### 
 
-GET http://localhost:7071/api/search_filter?query=webのサービス&category=Networking
+GET http://localhost:7071/api/search-filter?query=webのサービス&category=Networking
+
+
+###
+
+
+http://localhost:7071/api/semantic-ranking?query=web&lang=en-US
+
+
+###
+
+http://localhost:7071/api/semantic-vector?query=web&lang=en-US

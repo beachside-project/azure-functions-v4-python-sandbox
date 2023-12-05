@@ -3,6 +3,6 @@
 # Manually managing azure-functions-worker may cause unexpected issues
 
 azure-functions
-openai==0.28.1
+openai==1.2.*
 numpy
 azure-search-documents==11.4.0
